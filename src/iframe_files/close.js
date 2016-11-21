@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $("button#close").click(function() {
-    debugger;
-    $('#frame').remove()
+    frameElement.parentNode.removeChild(frameElement)
   })
 });
